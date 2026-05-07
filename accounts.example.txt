@@ -1,0 +1,13 @@
+Demo login accounts are created for testing only.
+
+Manager:
+username: manager
+password: demo-password
+
+Staff:
+username: staff
+password: demo-password
+
+Maintenance:
+username: maintenance
+password: demo-password

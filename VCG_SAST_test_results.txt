@@ -1,0 +1,250 @@
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 6 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ActionsRecord.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class ActionsRecord {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 12 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\AddMovie.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class AddMovie {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 14 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\AddShowtime.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class AddShowtime {
+
+LOW: Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 61 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\AddShowtime.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+            return new javafx.beans.property.SimpleStringProperty("   " + (index + 1));
+
+LOW: Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 166 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\AddShowtime.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+                if (movieId == -1) {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 4 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\App.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class App extends Application {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 6 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\AuthenticationService.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class AuthenticationService {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 5 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\AuthorizationService.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class AuthorizationService {
+
+LOW: Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 78 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\AuthorizationService.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+                int attempts = rs.getInt("failedAttempts") + 1;
+
+LOW: Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 98 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\AuthorizationService.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+            System.out.println("Error updating failed attempts: " + e.getMessage());
+
+LOW: Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 115 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\AuthorizationService.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+            System.out.println("Error resetting failed attempts: " + e.getMessage());
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 13 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\BookTicket.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class BookTicket {
+
+LOW: Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 119 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\BookTicket.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+                int ticketNewId = -1;
+
+LOW: Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 144 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\BookTicket.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+                ActionsRecord.recordAction(currentUser.getUsername(),"a Ticket has been added: " + ticketNewId + " for Showtime Number: " + showtimeNumber);
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 3 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\DBUtils.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class DBUtils {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 9 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\GenerateReport.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class GenerateReport {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 4 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\InputValidator.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class InputValidator {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\MaintenanceReport.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class MaintenanceReport {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 9 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\MaintenanceView.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class MaintenanceView {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 17 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ManageMovie.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class ManageMovie {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 11 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ManagerView.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class ManagerView {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 15 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ManageSchedule.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class ManageSchedule {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\Movie.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class Movie {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 6 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\MovieCheck.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class MovieCheck {
+
+LOW: Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 214 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\MovieCheck.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+            System.out.println("Error fetching ticketId: " + e.getMessage());
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\MoviePopularityData.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class MoviePopularityData {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 18 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\MoviePopularityReport.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class MoviePopularityReport {
+
+CRITICAL: Potentially Unsafe Code - Potential SQL Injection
+Line: 87 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\MoviePopularityReport.java
+The application appears to allow SQL injection via a pre-prepared dynamic SQL statement. No validator plug-ins were located in the application's XML files.
+            PreparedStatement stmt = con.prepareStatement(query);
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\PeakHoursData.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class PeakHoursData {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 18 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\PeakHoursReport.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class PeakHoursReport {
+
+CRITICAL: Potentially Unsafe Code - Potential SQL Injection
+Line: 90 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\PeakHoursReport.java
+The application appears to allow SQL injection via a pre-prepared dynamic SQL statement. No validator plug-ins were located in the application's XML files.
+            PreparedStatement stmt= con.prepareStatement(query );
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\SalesSummaryData.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class SalesSummaryData {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 18 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\SalesSummaryReport.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class SalesSummaryReport {
+
+CRITICAL: Potentially Unsafe Code - Potential SQL Injection
+Line: 59 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\SalesSummaryReport.java
+The application appears to allow SQL injection via a pre-prepared dynamic SQL statement. No validator plug-ins were located in the application's XML files.
+            PreparedStatement stmt = con.prepareStatement(query);
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 19 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ShowAllActions.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class ShowAllActions {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 19 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ShowAllMaintenanceReports.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class ShowAllMaintenanceReports {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 19 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ShowAllMovies.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class ShowAllMovies {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 22 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ShowAllShowtimes.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class ShowAllShowtimes {
+
+LOW: Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 131 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ShowAllShowtimes.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+            return new javafx.beans.property.SimpleStringProperty("   " + (index + 1));
+
+STANDARD: Potentially Unsafe Code - getResourceAsStream
+Line: 242 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ShowAllShowtimes.java
+This function acts as an entry point for external data and the code should be manually checked to ensure the data obtained is correctly validated and/or sanitised. Additionally, carefull checks/sanitisation should be applied in any situation where the user may be able to control or affect the filename.
+                var stream = getClass().getResourceAsStream("/Seats.png");
+
+LOW: Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 267 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ShowAllShowtimes.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+                }else if(!showtimeNumber.matches("\\d+")) {
+
+LOW: Potentially Unsafe Code - Operation on Primitive Data Type
+Line: 277 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ShowAllShowtimes.java
+The code appears to be carrying out a mathematical operation on a primitive data type. In some circumstances this can result in an overflow and unexpected behaviour. Check the code manually to determine the risk.
+                }else if(!seatNumber.matches("^(10|[1-9])$")) {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 22 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ShowAllTickets.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class ShowAllTickets {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\ShowTime.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class ShowTime {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 9 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\StaffView.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class StaffView {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\Ticket.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class Ticket {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 12 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\UpdateMovie.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class UpdateMovie {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 1 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\User.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class User {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 16 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\UserLogin.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class UserLogin {
+
+POTENTIAL ISSUE: Potentially Unsafe Code - Public Class Not Declared as Final
+Line: 16 - C:\Users\dacs3203\Downloads\GitRepo\DACS3203-Project\Theater\src\WriteMaintenanceReport.java
+The class is not declared as final as per OWASP recommendations. It is considered best practice to make classes final where possible and practical (i.e. It has no classes which inherit from it). Non-Final classes can allow an attacker to extend a class in a malicious manner. Manually inspect the code to determine whether or not it is practical to make this class final.
+public class WriteMaintenanceReport {
+
